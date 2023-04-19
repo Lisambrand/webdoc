@@ -1,0 +1,451 @@
+/* Basic CSS reset */
+*,
+:after,
+:before {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+/* ---- FORSIDEN ---- */ 
+/* Container holding the image and the text */
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.forside_tekst{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 110%;
+    transform: translate(-50%, -50%);
+}
+
+/* Centered text */
+.centered {
+    font-family: "aktiv-grotesk", sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    font-size: 200px;
+}
+
+.round {
+    border: 16px;
+    position: absolute;
+    top: 39%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background-color: rgb(117, 117, 117);
+    font-size: 16px;
+    padding: 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 50%;
+    color: white;
+    opacity: 0.6;
+}
+
+.round:hover {
+    padding: 30px;
+    color: black;
+}
+
+
+/* ---- TIDSLINJE ---- */
+
+.tid {
+    position: relative;
+}
+
+.side1 {
+    width: 100%;
+}
+
+.rejse {
+    position: absolute;
+    font-family: "aktiv-grotesk", sans-serif;
+    font-size: 30px;
+}
+
+
+.rejse1 {
+    margin-top: 1100px;
+    margin-left: 20%;
+    color: #004460;
+}
+
+.cirkel {
+    position: absolute;
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+    border: 10px solid white;
+}
+
+.hide {
+    position: absolute;
+    display: none;
+    border-radius: 50%;
+    width: 350px;
+    height: 350px;
+    border: 10px solid white;
+}
+
+.cirkel:hover .hide {
+    display: block;
+    margin-top: -10%;
+    margin-left: -10%;
+}
+
+
+.cirkel0 {
+    margin-top: 1000px;
+    margin-left: 60%;
+}
+
+.rejse2 {
+    margin-top: 1700px;
+    margin-left: 45%;
+    color: #004460;
+}
+
+.cirkel1 {
+    margin-top: 1600px;
+    margin-left: 10%;
+}
+
+
+.rejse3 {
+    margin-top: 2200px;
+    margin-left: 20%;
+    color: white;
+}
+
+.cirkel2 {
+    margin-top: 2100px;
+    margin-left: 70%;
+}
+
+
+.rejse4 {
+    margin-top: 2600px;
+    margin-left: 45%;
+    color: white;
+}
+
+.cirkel3 {
+    margin-top: 2500px;
+    margin-left: 10%;
+}
+
+.havet {
+    position: absolute;
+    transform: translateX(1400px);
+    margin-top: 600px;
+    font-family: "aktiv-grotesk", sans-serif;
+    font-size: 40px;
+    color: #004460;
+    rotate: -35deg;
+}
+
+.havet:hover {
+    font-size: 42px;
+    opacity: 0.7;
+}
+
+
+/* ---- FACTS SIDE ---- */ 
+
+.video {
+    width: 100%;
+}
+
+.ripped_paper{
+    transform: translateY(-300px);
+}
+
+.citat {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-weight: normal;
+    position: absolute;
+    top: 120%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:black;
+}
+
+.johan {
+    font-family: "aktiv-grotesk", sans-serif;
+    width: 100px;
+    margin-left: 62%;
+    transform: translateY(-90%);
+    position: absolute;
+    top: 120%;
+    right: 29%;
+    transform: translate(-50%, -50%);
+
+}
+
+/* ---- TILBAGE KNAPPEN i TOPPEN---- */ 
+.back{
+    font-family: "aktiv-grotesk", sans-serif;
+    border-radius: 10px;
+    margin-left: 595px;
+    margin-top: 10px;
+    text-align: center;
+    width: 200px;
+    height: 30px;
+    position: fixed;
+    z-index: 99; /* ---- Betyder at knappen ligger i lag 99 ovenpå billedet---- */ 
+}
+
+.back:hover{
+    background-color: lightgrey;
+}
+
+/* ---- BAGGRUNDSEFFEKER & OVERSKRIFTER---- */ 
+.ripped_paper2{
+    transform: translateY(-300px);
+    width: 100%;
+}
+
+.surfer {
+    width: 100%;
+    margin-top: -480px;
+}
+
+.overskrift2{
+    font-family: "aktiv-grotesk", sans-serif;
+    text-align: center;
+    position: absolute;
+    top: 170%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:white;
+    font-size: xx-large;
+    font-weight:bolder;
+}
+
+.ripped_paper3{
+    transform: translateY(-400px);
+    width: 100%;
+}
+
+.ripped_paper{
+    transform: translateY(-950px);
+    width: 100%;
+}
+
+.citat2 {
+    text-align: center;
+    position: absolute;
+    top: 265%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:black;
+}
+
+.citat3{
+    color: white;
+    margin-left: 4px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    position: absolute;
+    top: 340%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    font-weight: lighter;
+}
+
+.surfer2{
+    width: 100%;
+}
+
+.pwa{
+    font-family: "aktiv-grotesk", sans-serif;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    position: absolute;
+    top: 400%;
+    left: 15%;
+    transform: translate(-50%, -50%);
+    font-weight:bolder;
+    font-size: xx-large;
+}
+
+.round7{
+    border: 16px;
+    position: absolute;
+    top: 429%;
+    left:20%;
+    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background-color: rgb(119, 151, 208);
+    font-size: 16px;
+    padding: 140px;
+    border: none;
+    cursor: pointer;
+    border-radius: 50%;
+    opacity: 0.2;
+}
+
+.placering{
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    position: absolute;
+    top: 429%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    font-weight:lighter;
+    font-size: large;
+}
+
+.round_all{
+    border: 16px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background-color: rgb(255, 255, 255);
+    font-size: 16px;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 50%;
+    opacity: 1;
+}
+
+/* ---- FACTS OM WINDSURFING DUTTERNE---- */
+.round2{
+    top: 180%;
+    left: 62%;
+}
+
+.round3{
+    top: 199%;
+    left: 53%;
+}
+
+.round4{
+    top: 185%;
+    right: 70%;
+}
+
+.round5{
+    top: 225%;
+    left: 67%;
+    z-index: 100;
+}
+
+.round6{
+    top: 220%;
+    left: 45%;
+    z-index: 100;
+}
+
+.vandet{
+    width: 100%;
+    height: 10%;
+    transform: translateY(-600px);
+}
+
+.race{
+    font-family: "aktiv-grotesk", sans-serif;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    position: absolute;
+    top: 633%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight:bolder;
+    font-size: xx-large;
+}
+
+/* ---- STYLING AF POP-UP FACTS---- */
+.info_tekst{
+    position: absolute;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 200ms ease-in-out;
+    color: white;
+    padding-left: 40px;
+    font-size: 20px;
+    text-decoration-line: underline; 
+}
+
+.text2 {
+    top: 175%;
+    left: 62%;
+}
+
+.text3{
+    top: 195%;
+    left: 53%;
+}
+
+.text4{
+    top: 181%;
+    right: 76%;
+}
+
+.text5{
+    top: 220%;
+    left: 67%;
+}
+
+.text6{
+    top: 215%;
+    left: 11%;
+}
+
+.vis_tekst{
+    visibility: visible;
+    opacity: 1;
+}
+
+.facaden{
+    width: 60%;
+    top: 100%;
+    position: absolute;
+    transform: translateY(3400px);
+    z-index: 10;
+    left: 21%;
+}
+
+/* ---- UNDER OMBYGNING---- */
+.ombygning{
+    width: 100%;
+}
+
+.ombygning_tekst{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight:bolder;
+    font-size: xx-large;
+}
+
+.gå_tilbage{
+    text-align: center;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 5rem;
+    width: 10%;
+    height: 5%;
+}
+
+.gå_tilbage:hover{
+    background-color: lightgrey;
+}
